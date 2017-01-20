@@ -41,22 +41,22 @@ var About = React.createClass({
 		  </p>
 		  <ul>
 			<li className="tools-item">
-			  <a href="https://facebook.github.io/react">React</a> - This was the JavaScript framework used.
+			  <a href="https://facebook.github.io/react" target="_blank">React</a> - This was the JavaScript framework used.
 			</li>
 			<li className="tools-item">
-			  <a href="http://openweathermap.org">Open Weather Map</a> - I used Open Weather Map to search for weather data by city name.
+			  <a href="http://openweathermap.org" target="_blank">Open Weather Map</a> - I used Open Weather Map to search for weather data by city name.
 			</li>
 			<li className="tools-item">
-			  <a href="http://foundation.zurb.com">Foundation CSS Framework</a> - This was the CSS framework used.
+			  <a href="http://foundation.zurb.com" target="_blank">Foundation CSS Framework</a> - This was the CSS framework used.
 			</li>
 			<li className="tools-item">
-			  <a href="http://github.com/kcak11/react-weather-app">Github</a> - Version control system.
+			  <a href="http://github.com/kcak11/react-weather-app" target="_blank">Github</a> - Version control system.
 			</li>
 			<li className="tools-item">
-			  <a href="http://babeljs.io">Babel Transpiler</a> - For transpiling ES6 code
+			  <a href="http://babeljs.io" target="_blank">Babel Transpiler</a> - For transpiling ES6 code
 			</li>
 			<li className="tools-item">
-			  <a href="http://webpack.github.io">Webpack Bundler</a> - For packaging the app
+			  <a href="http://webpack.github.io" target="_blank">Webpack Bundler</a> - For packaging the app
 			</li>
 		  </ul>
 		  <div className="text-center">
