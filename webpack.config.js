@@ -13,6 +13,11 @@ module.exports = {
     new webpack.ProvidePlugin({
       '$': 'jquery',
       'jQuery': 'jquery'
+    }),
+	new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        warnings: false
+      }
     })
   ],
   output: {
@@ -47,5 +52,5 @@ module.exports = {
       }
     ]
   },
-  devtool: 'cheap-module-eval-source-map'
+  devtool: false?'cheap-module-eval-source-map':undefined
 };
